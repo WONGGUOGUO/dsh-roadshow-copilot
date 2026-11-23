@@ -14,12 +14,13 @@
 
 ## 安装
 
-- **DSH 插件市场**：Plugins → Discover 搜索 `dsh-roadshow-copilot` 一键安装。
-- **命令行**：
+- **命令行（Release 安装包）**：
 
   ```sh
-  dsh plugin --profile <profile> add dsh-roadshow-copilot
+  dsh plugin --profile <profile> add https://github.com/WONGGUOGUO/dsh-roadshow-copilot/releases/download/v0.1.0/dsh-roadshow-copilot-0.1.0.tgz
   ```
+
+- **DSH 插件市场**：Plugins → Discover 搜索 `dsh-roadshow-copilot`（已提交收录 PR，合并后可见）。
 
 安装后插件会把技能安装到 `~/.dsh/skills/roadshow-copilot`，新会话即可在技能目录看到 `roadshow-copilot`。
 
