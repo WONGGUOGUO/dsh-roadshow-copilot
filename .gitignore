@@ -1,0 +1,4 @@
+skill/vendor/
+skill/models/
+*.tgz
+__pycache__/
